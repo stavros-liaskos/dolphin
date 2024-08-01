@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build"
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": "^20.0.0"
   },
   "keywords": [],
   "author": "",
