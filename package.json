@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "deploy": "now"
+    "start": "next start"
+  },
+  "engines": {
+    "node": "^16.0.0"
   },
   "keywords": [],
   "author": "",
@@ -19,8 +22,5 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^16.8.6"
-  },
-  "devDependencies": {
-    "now": "^15.5.0"
   }
 }
